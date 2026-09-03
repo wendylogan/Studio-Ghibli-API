@@ -57,7 +57,7 @@ A Java command-line application that connects to the Studio Ghibli API to displa
 ## 📸 Example Output
 The application displays all Studio Ghibli films with their full descriptions. The catalog view gives users a complete overview of available films, with descriptions wrapped for readability.
 
-<img width="600" src="./screenshots/SG-API-3-error.png" />
+<img width="600" src="./screenshots/SG-API-1-catalog.png" />
 
 Note: The catalog includes all 22 Studio Ghibli films. Only the first two are shown in the screenshot above for readability.
 
@@ -69,6 +69,6 @@ The program provides clear feedback when users exit, confirming the session has 
 
 The application gracefully handles invalid input. If a user searches for a film title that does not exist in the Studio Ghibli API, the program displays a clear error message: "❌ Movie not found. Please try again." This provides immediate feedback and allows the user to continue searching without interruption.
 
-<img width="600" src="./screenshots/SG-API-1-catalog.png" />
+<img width="600" src="./screenshots/SG-API-3-error.png" />
 
 The application's error handling in action — searching for "Wizard of Oz" (not a Studio Ghibli film) returns a clear "Movie not found" message and prompts the user to try again.
