@@ -57,18 +57,18 @@ A Java command-line application that connects to the Studio Ghibli API to displa
 ## 📸 Example Output
 The application displays all Studio Ghibli films with their full descriptions. The catalog view gives users a complete overview of available films, with descriptions wrapped for readability.
 
-<img width="593" height="310" alt="Screenshot 2026-08-27 at 3 58 33 PM" src="https://github.com/user-attachments/assets/f76bc68e-8c6b-4cb2-9874-6a1c4791a4ce" />
+<img width="600" src="./screenshots/SG-API-3-error.png" />
 
 Note: The catalog includes all 22 Studio Ghibli films. Only the first two are shown in the screenshot above for readability.
 
 Users can search for a specific film by title. Here, "Spirited Away" returns detailed information including description, release date, and producer. The search feature demonstrates real-time API querying.
 
-<img width="617" height="322" alt="Screenshot 2026-08-27 at 4 09 23 PM" src="https://github.com/user-attachments/assets/d3a4dfcc-fc08-40fb-b970-c7e5e95810ea" />
+<img width="600" src="./screenshots/SG-API-2-search.png"/>
 
 The program provides clear feedback when users exit, confirming the session has ended gracefully.
 
 The application gracefully handles invalid input. If a user searches for a film title that does not exist in the Studio Ghibli API, the program displays a clear error message: "❌ Movie not found. Please try again." This provides immediate feedback and allows the user to continue searching without interruption.
 
-<img width="599" height="229" alt="Screenshot 2026-08-27 at 4 11 27 PM" src="https://github.com/user-attachments/assets/bc34080a-b422-435d-bead-c218c5794e51" />
+<img width="600" src="./screenshots/SG-API-1-catalog.png" />
 
 The application's error handling in action — searching for "Wizard of Oz" (not a Studio Ghibli film) returns a clear "Movie not found" message and prompts the user to try again.
